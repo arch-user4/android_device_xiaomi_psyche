@@ -76,45 +76,27 @@ vendor/firmware/spk2_playback_delta.txt
 vendor/firmware/spk2_voice_delta.txt
 
 # Camera
-vendor/lib64/camera/com.qti.actuator.alioth_dw9800.so
-vendor/lib64/camera/com.qti.eeprom.alioth_ofilm_hi556_p24c64f.so
-vendor/lib64/camera/com.qti.eeprom.alioth_ofilm_imx355_bl24s64.so
-vendor/lib64/camera/com.qti.eeprom.alioth_ofilm_imx582_gt24p128c.so
-vendor/lib64/camera/com.qti.eeprom.alioth_ofilm_s5k3t2_ofl2488.so
-vendor/lib64/camera/com.qti.eeprom.alioth_sunny_imx355_gt24p64e.so
-vendor/lib64/camera/com.qti.eeprom.alioth_sunny_imx582_gt24p128e.so
-vendor/lib64/camera/com.qti.eeprom.alioth_sunny_s5k3t2_p24c64f.so
-vendor/lib64/camera/com.qti.eeprom.alioth_sunny_s5k5e9yx04_p24c64f.so
-vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
-vendor/lib64/camera/com.qti.eeprom.umi_sunny_s5k5e8yx_depth.so
-vendor/lib64/camera/com.qti.sensor.alioth_hi556.so
-vendor/lib64/camera/com.qti.sensor.alioth_imx355.so
-vendor/lib64/camera/com.qti.sensor.alioth_imx582.so
-vendor/lib64/camera/com.qti.sensor.alioth_s5k3t2.so
-vendor/lib64/camera/com.qti.sensor.alioth_s5k5e9yx04.so
-vendor/lib64/camera/com.qti.sensor.imx563.so
-vendor/lib64/camera/com.qti.sensormodule.alioth_ofilm_hi556_macro.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_ofilm_imx355_ultra.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_ofilm_imx582_wide.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_ofilm_s5k3t2_front.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_sunny_imx355_ultra.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_sunny_imx582_wide.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_sunny_s5k3t2_front.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_sunny_s5k5e9yx04_macro.bin
-vendor/lib64/camera/com.qti.tuned.alioth_ofilm_hi556_macro.bin
-vendor/lib64/camera/com.qti.tuned.alioth_ofilm_imx355_ultra.bin
-vendor/lib64/camera/com.qti.tuned.alioth_ofilm_imx582_wide.bin
-vendor/lib64/camera/com.qti.tuned.alioth_ofilm_s5k3t2_front.bin
-vendor/lib64/camera/com.qti.tuned.alioth_sunny_imx355_ultra.bin
-vendor/lib64/camera/com.qti.tuned.alioth_sunny_imx582_wide.bin
-vendor/lib64/camera/com.qti.tuned.alioth_sunny_s5k3t2_front.bin
-vendor/lib64/camera/com.qti.tuned.alioth_sunny_s5k5e9yx04_macro.bin
+vendor/lib64/camera/com.qti.actuator.psyche_sunny_s5k5e9yx04_dw9800_macro_actuator.so  com.qti.sensor.imx563.so
+vendor/lib64/camera/com.qti.sensormodule.psyche_semco_imx766_wide.bin
+vendor/lib64/camera/com.qti.eeprom.psyche_ofilm_ov13b10_p24c64f_ultra_wide_eeprom.so   com.qti.sensor.psyche_ofilm_ov13b10_ultra_wide.so
+vendor/lib64/camera/com.qti.sensormodule.psyche_sunny_s5k5e9yx04_macro.bin  fdconfigpreview.bin
+vendor/lib64/camera/com.qti.eeprom.psyche_ofilm_ov32b40_p24c64f_front_eeprom.so
+vendor/lib64/camera/com.qti.sensor.psyche_ofilm_ov32b40_front.so
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
+vendor/lib64/camera/com.qti.eeprom.psyche_semco_imx766_p24c128f_wide_eeprom.so
+vendor/lib64/camera/com.qti.sensor.psyche_semco_imx766_wide.so
+vendor/lib64/camera/com.qti.tuned.psyche_ofilm_ov13b10_ultra_wide.bin
 vendor/lib64/camera/fdconfigvideo.bin
+vendor/lib64/camera/com.qti.eeprom.psyche_sunny_s5k5e9yx04_gt24p64e_macro_eeprom.so    com.qti.sensor.psyche_sunny_s5k5e9yx04_macro.so
+vendor/lib64/camera/com.qti.tuned.psyche_ofilm_ov32b40_front.bin
 vendor/lib64/camera/fdconfigvideolite.bin
-vendor/lib64/hw/camera.qcom.so|08dd09646fc78cfc574c11aba7f1f722c28e15b6
+vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
+vendor/lib64/camera/com.qti.sensormodule.psyche_ofilm_ov13b10_ultra_wide.bin  com.qti.tuned.psyche_semco_imx766_wide.bin
+vendor/lib64/camera/com.qti.eeprom.umi_sunny_s5k5e8yx_depth.so
+vendor/lib64/camera/com.qti.sensormodule.psyche_ofilm_ov32b40_front.bin
+vendor/lib64/camera/com.qti.tuned.psyche_sunny_s5k5e9yx04_macro.bin
+vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
@@ -216,7 +198,7 @@ vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libxmi_hdr_checker.so
 vendor/lib64/libxmi_high_dynamic_range.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|004d73d02b4967170ecc3f6e5450b0f56eaf4c5a|040754908683f59ee1b5b7f962f659fbed3a515a
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera-arcsoft
 vendor/lib64/libarcsoft_beautyshot.so
@@ -232,6 +214,8 @@ vendor/lib64/libarcsoft_portrait_lighting_c.so
 vendor/lib64/libarcsoft_preview_deflicker.so
 vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libarcsoft_superportrait.so
+vendor/lib64/libarcsoft_portrait_lighting_c.so
+vendor/lib64/libarcsoft_portrait_lighting.so  
 
 # Camera (camerax)
 vendor/lib/libcamxexternalformatutils.so
@@ -366,10 +350,10 @@ vendor/lib64/libmulticam_optical_zoom_control.so
 vendor/lib64/libmulticam_video_optical_zoom.so
 
 # Display-calibration
-vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
+vendor/lib64/hw/fingerprint.goodix_fod.so
 
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
